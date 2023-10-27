@@ -1,0 +1,87 @@
+/* Login.css */
+
+.container {
+  max-width: 500px;
+  margin: 200px auto 0;
+  padding: 20px;
+  border: 5px solid #7a8166;
+  background-color: #edf0f9;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(8, 8, 8, 0.1);
+}
+
+.signUP {
+  text-align: right;
+}
+
+.email, .password_input {
+  display: flex;
+  margin-right: 10px;
+  padding-right: 0 10px;
+  margin-bottom: 20px; /* Keep margin-bottom as 20px */
+  align-items: center; /* Vertically center content within the grid cells */
+}
+
+.password_input {
+  margin-top: 10px; /* Increase margin-top to move the password box lower */
+}
+
+.email_label {
+  width: 150px;
+}
+
+.email_label label  {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  padding-right: 10px; /* Add padding to create space between labels and input boxes */
+}
+
+ .password_label label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  padding-right: 10px; /* Add padding to create space between labels and input boxes */
+}
+
+.email_input input, .password_input input {
+  width: 100%;
+  padding: 20px;
+  border: 5px solid #ccc; /* Increased border thickness for a more prominent look */
+  border-radius: 10px;
+  font-size: 10px;
+  color: #555;
+  transition: border 0.3s, box-shadow 0.3s;
+  outline: none; 
+}
+
+.email_input input:focus, .password_input input:focus {
+  border-color: #00287f;
+  box-shadow: 0 0 5px rgba(0, 40, 127, 0.5);
+}
+
+.checkbox {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.l {
+  margin-top: 20px;
+  text-align: center;
+  color: #0f80dd;
+}
+
+.f {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+}
+.input-message {
+  color: red;
+}

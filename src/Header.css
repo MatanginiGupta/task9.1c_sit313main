@@ -1,0 +1,77 @@
+/* Header container styles */
+header {
+    background: linear-gradient(to left, #ab2112, #0c0c0c); /* Gradient background color from top to bottom */
+    color: rgb(242, 235, 235); /* Text color */
+    padding: 15px 0;
+    position: fixed; /* Fix the header to the top of the page */
+    top: 0; /* Position the header at the top */
+    left: 0; /* Position the header at the left */
+    right: 0; /* Position the header at the right */
+    z-index: 1000; /* Ensure the header is on top of other content */
+  }
+  
+  .deakin {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* DEV@DEAKIN text styles */
+  .deakin p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto; 
+    margin-right: 15px; /* Add margin to separate from search bar */
+  }
+  
+
+  /* Right side of the header */
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    flex-grow: 1; /* Let the right side grow to fill available space */
+    margin-left: auto;
+  }
+  
+  /* Search input styles */
+  .s {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 9;
+    padding: 20 30px; /* Add padding for spacing */
+    padding-right: 10 20px;
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #f2ecec; /* Set a background color */
+  }
+  
+  /* Adjust the search input's width */
+  .s .ui.input {
+    width: 100%; /* Set the input's width to 100% */
+  }
+    
+  /* Make the search input longer */
+  .s .ui.input > input {
+    width: 100%; /* Set the input width to 100% to make it span the entire search bar */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+/* Header.css */
+
+/* Add spacing between the "Login" and "Post" buttons */
+.button .ui.button.post {
+    margin-left:   15px; /* Add more margin to separate "Post" button from "Login" button */
+    padding-left: 20px; /* Add left padding to "Post" button */
+    padding-right: 20px; /* Add right padding to "Post" button */
+    background-color: #1d17de; /* Add the desired background color */
+    color: white; /* Add text color */
+  }
+  
+  /* Style the "Login" button */
+  .button .ui.button.login {
+    background-color: #2d1ce7;
+    color: white; /* Button text color */
+  }

@@ -1,0 +1,82 @@
+/* Signup.css */
+
+.container2 {
+  max-width: 500px;
+  margin: 200px auto 0;
+  padding: 20px;
+  border: 5px solid #8d9080;
+  background-color: #edf0f9;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(11, 11, 11, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.n {
+  display: flex;
+  align-items: center;
+  /* Vertically center content within the flex container */
+  margin-bottom: 20px;
+}
+
+.N_label label {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  padding-right: 10px;
+  flex: 1;
+  /* Allow the label to grow and take up space */
+}
+
+.name_input input,
+.E_input input,
+.p_input input,
+.c_p_input input {
+  flex: 2;
+  /* Allow the input to grow and take up more space */
+  padding: 15px;
+  /* Slightly reduce padding for a better alignment */
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #555;
+  transition: border 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+
+.checkbox {
+  font-weight: bold;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.l {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e2ebf2;
+}
+
+.f {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #090808;
+}
+
+.N_label {
+  width: 200px;
+}
+
+.error {
+  color: rgb(159, 9, 9);
+    text-align: center;
+  }
+  
+
